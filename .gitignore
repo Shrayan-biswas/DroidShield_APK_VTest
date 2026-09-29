@@ -3,44 +3,23 @@
 *.keystore
 *.idsig
 
-# Local build outputs
+# Android build outputs
 .gradle/
 build/
 **/build/
-
-# OS/editor files
-.DS_Store
-Thumbs.db
-.idea/
-
-# Local training APK and decoded output
-apk/
-output/
-
-# Signing keys and signatures
-*.jks
-*.keystore
-*.idsig
-
-# Local build outputs
-.gradle/
-build/
-**/build/
-
-# OS/editor files
-.DS_Store
-Thumbs.db
-.idea/
-
-# Training APK and decoded output
-apk/
-output/
-
-# Generated Android artifacts
 *.apk
 *.dex
 *.class
 *.ap_
+
+# Local training APKs and decoded output
+apk/
+output/
 provider_test/apkbuild/
 provider_test/dex/
 provider_test/out/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
